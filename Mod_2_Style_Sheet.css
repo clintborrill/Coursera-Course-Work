@@ -14,9 +14,10 @@ h1 {
     height: fit-content;
     width: fit-content;
     padding: 5px;
-    position: relative; 
-    top: 0px;
-    right: 0px;
+    position: absolute; 
+    top: 1px;
+    right: 1px;
+    clear: left;
 
 }
 h2 {
