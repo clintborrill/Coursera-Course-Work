@@ -1,4 +1,4 @@
-.H2Block {
+.Hbox {
     width: fit-content;
     height: fit-content;
     border: black;
@@ -7,19 +7,18 @@
 }
 h2 {
     font-size: 16;
-    color: aqua;
     text-align: right;
     border-style: solid 1px;
 }
 .contentblock {
     color: darkgrey;
 }
-.H2block1 {
-    color: darkcyan;
+.H2Block1 {
+    background-color: darkcyan;
 }
-.H2block2 {
-    color: darkslategray;
+.H2Block2 {
+    background-color: darkslategray;
 }
-.H2block3 {
-    color: darkolivegreen;
+.H2Block3 {
+    background-color: darkolivegreen;
 }
