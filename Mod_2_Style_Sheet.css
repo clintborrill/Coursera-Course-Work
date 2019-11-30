@@ -10,7 +10,6 @@ h1 {
 .Hbox {
     border: 1px solid black;
     height: fit-content;
-    margin: 5px;
     width: fit-content;
     padding: 5px;
     position: relative; 
@@ -19,9 +18,7 @@ h1 {
 
 }
 h2 {
-    font-size: 16;
     text-align: right;
-    border-style: solid 1px;
     width: fit-content;
     border: black;
 
