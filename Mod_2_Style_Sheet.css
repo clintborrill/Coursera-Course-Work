@@ -24,7 +24,7 @@ h2 {
     border: black;
 
 }
-p {
+.paragraph {
     width: 95%;
     height: 150px;
     margin-right: auto;
