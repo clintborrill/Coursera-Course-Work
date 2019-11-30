@@ -4,6 +4,10 @@
     border: black;
     position: relative;
     margin: 15px;
+    text-align: right;
+}
+.row {
+    
 }
 h2 {
     font-size: 16;
@@ -11,7 +15,8 @@ h2 {
     border-style: solid 1px;
 }
 .contentblock {
-    color: darkgrey;
+    
+    background-color: darkgrey;
 }
 .H2Block1 {
     background-color: darkcyan;
