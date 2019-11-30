@@ -6,6 +6,7 @@ body {
 .header {
     text-align: center;
     margin-bottom: 15px;
+    font-size: 1.75em;
     }
 
 .contentblock {
@@ -43,6 +44,7 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     font-family: Helvetica;
+    font-size: 1.25em;
     color: white;
     position: relative;
     top: 45px;
