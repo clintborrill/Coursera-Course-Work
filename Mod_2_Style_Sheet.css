@@ -2,20 +2,9 @@ h1 {
     margin-bottom: 15px;
     text-align: center;
     }
-    
-    p {
-    border: 1px solid black;
-    width: 95%;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: Helvetica;
-    color: white;
-    }
 
 .contentblock {
     background-color: darkgrey;
-    text-align: right;
     position: relative;
     }
 .Hbox {
@@ -37,13 +26,22 @@ h2 {
     border: black;
 
 }
+p {
+    border: 1px solid black;
+    width: 95%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+    }
 
-.H2Block1 {
+#box1 {
     background-color: darkcyan;
 }
-.H2Block2 {
+#box2 {
     background-color: darkslategray;
 }
-.H2Block3 {
+#box3 {
     background-color: darkolivegreen;
 }
