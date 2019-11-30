@@ -1,8 +1,26 @@
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    }
+    
+    p {
+    border: 1px solid black;
+    width: 95%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+    }
+
 .Hbox {
+    border: 1px solid black;
     height: fit-content;
     position: relative;
-    margin: 15px;
+    margin: 5px;
     text-align: right;
+    width: fit-content;
+    padding: 5px;
 }
 h2 {
     font-size: 16;
@@ -15,7 +33,10 @@ h2 {
 .contentblock {
     
     background-color: darkgrey;
-    position: right;
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: right;
 }
 .H2Block1 {
     background-color: darkcyan;
