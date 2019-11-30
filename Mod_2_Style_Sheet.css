@@ -1,5 +1,11 @@
+.H2Block {
+    width: fit-content;
+    height: fit-content;
+    border: black;
+}
 h2 {
     font-size: 16;
     color: aqua;
+    text-align: right;
     text-underline-position: below;
 }

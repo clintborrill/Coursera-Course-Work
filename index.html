@@ -30,7 +30,9 @@
     
     /* Simple Responsive Framework. */
     .row {
-      width: 100%;
+        width: 100%;
+        float: left;
+        border: 1px solid green;
     }
     
     /********** Large devices only **********/
@@ -129,15 +131,21 @@
     
     <div class="row">
         <div class="col-lg-4 col-md-6">
-            <h2>Chicken</h2>
+                <div class ="H2Block">
+                <h2>Chicken</h2>
+                </div>
             <p>This is random dummy data that I would like to reflect in my first bucket. This may serve as an introduction to the content that follows.</p>
         </div>
         <div class="col-lg-4 col-md-6">
-            <h2>Beef</h2>
+                <div class ="H2Block">
+                <h2>Beef</h2>
+                </div>
             <p>This is the main body of content that I would like to display. It should follow the opening paragraph in the column to the right if it is on the large screen. But if on a smaller screen, it may follow below.</p>
         </div>
-        <div class="col-lg-4 col-md-6">
-            <h2>Sushi</h2>
+        <div class="col-lg-4 col-md-12">
+                <div class ="H2Block">
+                <h2>Sushi</h2>
+                </div>
             <p>This is my closing paragraph, which should contain a catchy take away - meant to bring elightenment to anyone that reads it!</p>
         </div>
     </div>
