@@ -54,7 +54,11 @@ h2 {
 }
 #box2 {
     background-color: darkslategray;
+    
 }
 #box3 {
     background-color: darkolivegreen;
+}
+#H2Block1, #H2Block2, #H2Block3 {
+    margin: 5px;
 }
