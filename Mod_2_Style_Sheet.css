@@ -2,10 +2,24 @@
     width: fit-content;
     height: fit-content;
     border: black;
+    position: relative;
+    margin: 15px;
 }
 h2 {
     font-size: 16;
     color: aqua;
     text-align: right;
-    text-underline-position: below;
+    border-style: solid 1px;
+}
+.contentblock {
+    color: darkgrey;
+}
+.H2block1 {
+    color: darkcyan;
+}
+.H2block2 {
+    color: darkslategray;
+}
+.H2block3 {
+    color: darkolivegreen;
 }

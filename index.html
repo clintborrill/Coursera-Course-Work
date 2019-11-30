@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://clintborrill.github.io/coursera-course-work/Mod_2_Stle_Sheet.css">
-    <title>Module 2 Project</title>
+    <link rel="stylesheet" type="text/css" href="https://clintborrill.github.io/coursera-course-work/Mod_2_Style_Sheet.css">
+    <title>Module 2 Project- Columns</title>
 
     <style>
 
@@ -32,14 +32,18 @@
     .row {
         width: 100%;
         float: left;
-        border: 1px solid green;
+        border: 1px solid black;
+        position: relative;
+    }
+    .contentblock {
+        position: relative;
     }
     
     /********** Large devices only **********/
     @media (min-width: 922px) {
       .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
-        border: 1px solid green;
+        border: 1px solid black;
       }
       .col-lg-1 {
         width: 8.33%;
@@ -83,7 +87,7 @@
     @media (min-width: 768px) and (max-width: 991px) {
       .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
-        border: 1px solid green;
+        border: 1px solid black;
       }
       .col-md-1 {
         width: 8.33%;
@@ -130,20 +134,20 @@
     <h1>Module 2 Exercise</h1>
     
     <div class="row">
-        <div class="col-lg-4 col-md-6">
-                <div class ="H2Block">
+        <div class="col-lg-4 col-md-6 contentblock">
+                <div class ="H2Block1">
                 <h2>Chicken</h2>
                 </div>
             <p>This is random dummy data that I would like to reflect in my first bucket. This may serve as an introduction to the content that follows.</p>
         </div>
-        <div class="col-lg-4 col-md-6">
-                <div class ="H2Block">
+        <div class="col-lg-4 col-md-6 contentblock">
+                <div class ="H2Block2">
                 <h2>Beef</h2>
                 </div>
             <p>This is the main body of content that I would like to display. It should follow the opening paragraph in the column to the right if it is on the large screen. But if on a smaller screen, it may follow below.</p>
         </div>
-        <div class="col-lg-4 col-md-12">
-                <div class ="H2Block">
+        <div class="col-lg-4 col-md-12 contentblock">
+                <div class ="H2Block3">
                 <h2>Sushi</h2>
                 </div>
             <p>This is my closing paragraph, which should contain a catchy take away - meant to bring elightenment to anyone that reads it!</p>
